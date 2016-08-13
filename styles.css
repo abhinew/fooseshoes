@@ -1,0 +1,243 @@
+body {
+	margin: 0;
+}
+
+.title-section {
+	background-color: #242424;
+	
+}
+
+.sections-container {
+	float: left;
+	min-width: 100%;
+	
+}
+
+.main-content {
+	margin: 0 auto;
+	width: 1004px;
+	
+}
+
+.title-section .main-content {
+	padding: 7px 0;
+	border-right: 1px solid #383838;
+}
+
+.search-button {
+	background: url("search-icon.png") no-repeat center;
+	width: 20px;
+	border: 0;	
+}
+
+
+
+.login-button {
+	background-color: #242424;
+	border: 0;
+	color: #7e7e7e;
+	vertical-align: top;
+}
+
+.title-section h1 {
+	display: inline;
+	font-family: "Arial";
+	font-weight: normal;
+	color: #57c5a0;
+	font-size: 18px;
+	
+}
+
+.title-section span {
+	float: right;	
+}
+
+.menus {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	
+}
+
+.menus li {
+	display: inline-block;
+	border-right: 1px solid #eeeeee;
+}
+
+.menus li:first-child {
+	border-left: 1px solid #eeeeee;
+}
+
+
+
+.menus li:nth-child(n+7) {
+	float: right;
+	padding: 15px 15px;
+}
+
+.menus li a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 12px;
+	color: #242424;
+	padding: 15px 15px;
+	
+}
+
+.menus li span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.star {
+	background: url("star.png") no-repeat center;
+}
+
+.ratings {
+	background: url("ratings.png") no-repeat center;
+}
+
+.cart {
+	background: url("cart.png") no-repeat center;
+}
+
+.items-count {
+	background: url("items-count.png") no-repeat center;
+}
+
+
+.pink-shoe {
+	float: left;
+}
+
+.pink-shoe-section {
+	background-color: #efebe8;
+}
+
+.pink-shoe-section:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.pink-shoe-sale {
+	float: left;
+	width: 50%;
+}
+
+.pink-shoe-sale .price-tag {
+	color: #ffffff;
+	background-color: #57c5a0;
+	font-family: "Arial";
+	font-size: 10px;
+	padding: 20px 20px;
+	display: inline-block;
+}
+
+.pink-shoe-sale h3 {
+	font-family: "Arial";
+	font-weight: normal;
+}
+
+.pink-shoe-sale p {
+	font-family: "Arial";
+	font-size: 14px;
+	color: #565554;
+}
+
+.pink-shoe-sale span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	padding: 20px 20px;
+	background-color: #ffffff;
+}
+
+.eye {
+	background: url("eye.png") no-repeat center;
+}
+
+.star {
+	background: url("mini-star.png") no-repeat center;
+}
+
+.arrow {
+	background: url("arrow.png") no-repeat center;
+}
+
+.green-cart {
+	background: url("green-cart.png") no-repeat center;
+}
+
+.tab-section {
+	background-color: #2e2e2e;
+	clear: both;
+}
+
+
+.tabs {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 3px;
+}
+
+.tabs li {
+	display: inline-block;
+	width: 19%;
+	height: 40px;
+	text-align: center;
+	padding-top: 5px;
+	border-top: 6px solid #000000;
+	position: relative;
+}
+
+.tabs li:hover:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -4px; 
+	right: 0;
+	left: 0;
+	height: 3px;
+	background-color: #57c5a0;
+}
+
+.tabs li a {
+	text-decoration: none;
+	font-family: "Arial";
+}
+.tab-heading {
+	font-size: 13px;
+	color: #979797;
+	display: block;
+}
+
+.tab-caption {
+	font-size: 10px;
+	color: #6e6e6e;
+	display: block;
+	padding-top: 2px;
+}
+
+.shoe-specials-section {
+	background-color: #242424;
+}
+
+.shoe-specials-section .main-content {
+	text-align: center;
+}
+
+.shoe-specials-section .main-content img {
+	display: inline-block;	
+	padding: 20px 10px;
+}
+
+.shoe-specials-section .main-content img:first-child {
+	padding-left: 0;
+}
+
+.shoe-specials-section .main-content img:last-child {
+	padding-right: 0;
+}
