@@ -25,7 +25,7 @@ body {
 }
 
 .search-button {
-	background: url("search-icon.png") no-repeat center;
+	background: url("images/search-icon.png") no-repeat center;
 	width: 20px;
 	border: 0;	
 }
@@ -92,19 +92,19 @@ body {
 }
 
 .star {
-	background: url("star.png") no-repeat center;
+	background: url("images/star.png") no-repeat center;
 }
 
 .ratings {
-	background: url("ratings.png") no-repeat center;
+	background: url("images/ratings.png") no-repeat center;
 }
 
 .cart {
-	background: url("cart.png") no-repeat center;
+	background: url("images/cart.png") no-repeat center;
 }
 
 .items-count {
-	background: url("items-count.png") no-repeat center;
+	background: url("images/items-count.png") no-repeat center;
 }
 
 
@@ -156,19 +156,19 @@ body {
 }
 
 .eye {
-	background: url("eye.png") no-repeat center;
+	background: url("images/eye.png") no-repeat center;
 }
 
 .star {
-	background: url("mini-star.png") no-repeat center;
+	background: url("images/mini-star.png") no-repeat center;
 }
 
 .arrow {
-	background: url("arrow.png") no-repeat center;
+	background: url("images/arrow.png") no-repeat center;
 }
 
 .green-cart {
-	background: url("green-cart.png") no-repeat center;
+	background: url("images/green-cart.png") no-repeat center;
 }
 
 .tab-section {
@@ -240,4 +240,215 @@ body {
 
 .shoe-specials-section .main-content img:last-child {
 	padding-right: 0;
+}
+
+.new-arrivals-section {
+	background-color: #ebe7df;
+	
+	
+}
+.heading {
+	padding: 20px 0px;	
+}
+
+.heading:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.heading h3 {
+	color: #242424;
+	font-family: "Arial";
+	float: left;
+	margin-top: 0;	
+	font-weight: normal;
+
+}
+
+.heading input {
+	float: right;
+	border-radius: 0;
+	background-color: #ebe7df;
+	padding: 5px 20px;
+	color: #bcb5a7;
+	font-size: 12px;
+	border: 1px solid #cccccc;
+}
+.item {
+	width: 300px;
+	height: 270px;
+	position: relative;
+}
+
+
+.price {
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	height: 65px;
+	width: 70px;
+	background-color: #57c5a0;
+	padding: 27px 10px;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 12px;
+}
+
+.title {
+	border-top: 1px solid #cccccc;
+	padding: 16px 0px;
+	background-color: #ffffff;
+	font-family: "Arial";
+	font-size: 15px;
+}
+
+.buttons {
+	text-align: right;	
+	height: 17px;
+}
+
+
+.buttons input {
+	margin: 0 20px 0 0;
+	border: 0;
+	width: 20px;
+	display: none;
+}
+
+.item:hover .buttons input {
+	display: inline-block;
+}
+.items-container {
+	text-align: center;
+	
+}
+
+.items-container > div {
+	float: left;
+}
+
+.items-container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+	
+.item:first-child {
+	margin-right: 40px;
+}
+
+.item:last-child {
+	margin-left: 40px;
+}
+
+.on-sale {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	background-color: #242424;
+	color: #ffffff;
+	height: 70px;
+	width: 70px;
+	font-size: 12px;
+	padding: 25px 5px;
+	box-sizing: border-box;
+	font-family: "Arial";
+}
+
+.out-stock {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	background-color: #f27e4b;
+	color: #ffffff;
+	height: 70px;
+	width: 70px;
+	font-size: 12px;
+	padding: 25px 5px;
+	box-sizing: border-box;
+	font-family: "Arial";
+}
+
+
+
+.site-updates {
+	
+	padding-top: 20px;
+}
+
+.site-updates > div {
+	float: left;
+	background-color: #dfdbd4;
+	padding: 0px 15px;
+}
+
+
+.site-updates:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.free-shipping {
+	
+	width: 200px;
+	margin-right: 20px;
+}
+.testimonials {
+	width: 200px;
+	margin-right: 20px;
+}
+
+.blog-news {
+	width: 450px;
+}
+.site-updates h5 {
+	font-family: "Arial";
+}
+
+.site-updates p {
+	font-family: "Arial";
+	font-size: 11px;
+}
+
+.items-container:nth-child(4) {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.items-container:first-of-type {
+	border: 1px solid #ccc;
+}
+
+
+.date {
+	width: 30px;
+	background-color: #57c5a0;
+	color: #ffffff;
+	
+	font-family: "Arial";
+	font-size: 12px;
+	padding: 10px 10px;
+}
+.news-container div {
+	height: 30px;
+	float: left;
+	
+}
+.news-container:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.news h6 {
+	margin: 0;
+	font-size: 12px;
+	font-family: "Arial";
+}
+.news p {
+	margin: 0;
+}
+
+.news {
+	padding: 
 }
