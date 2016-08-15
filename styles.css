@@ -223,6 +223,7 @@ body {
 
 .shoe-specials-section {
 	background-color: #242424;
+	clear: both;
 }
 
 .shoe-specials-section .main-content {
@@ -244,9 +245,9 @@ body {
 
 .new-arrivals-section {
 	background-color: #ebe7df;
-	
-	
+	clear: both;
 }
+
 .heading {
 	padding: 20px 0px;	
 }
